@@ -89,6 +89,8 @@ $(document).ready(() => {
     word = words[Math.floor((Math.random() * words.length))];
     big = word.length
     blanks = word.replace(/[A-Za-z]/g, ' _');
+    letters = [];
+    $('#letters').html('[ ]')
     $('#word').html(blanks)
   }
   
