@@ -151,6 +151,7 @@ $(document).ready(() => {
   }
 
   document.onkeyup = (event) => {
+    if (guess > 0) {
     letter = String.fromCharCode(event.which).toLowerCase();
     reg = new RegExp(letter,"i");
       if (!letters.includes(letter)) {
@@ -165,7 +166,7 @@ $(document).ready(() => {
         }
         win ();
     $('#word').html(blanks)
-  }
+  }}
 }
 
   $('#begin').click(nGame)
