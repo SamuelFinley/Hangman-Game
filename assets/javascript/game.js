@@ -137,7 +137,7 @@ $(document).ready(() => {
       won +=1
       window.localStorage.setItem('won', won)
       $('#wins').html('wins: ' + won)
-      $('#hal').html("H.A.L 9000: <br>" + halStuff[halStuff.length])
+      $('#hal').html("H.A.L 9000: <br>" + halStuff[halStuff.length-1])
     }
   }
 
