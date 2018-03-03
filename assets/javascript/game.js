@@ -90,6 +90,7 @@ $(document).ready(() => {
     big = word.length
     blanks = word.replace(/[A-Za-z]/g, ' _');
     letters = [];
+    guess = 12;
     $('#letters').html('[ ]')
     $('#word').html(blanks)
     $('#head').css('border-color', 'TRANSPARENT');
