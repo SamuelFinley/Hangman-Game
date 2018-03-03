@@ -85,7 +85,7 @@ $(document).ready(() => {
   }
   
   function nGame () {
-    $('#hal').html("H.A.L 9000: <br>" + halStuff[0])
+    $('#hal').html("H.A.L 9000: <br> I am the H.A.L 9000. You may call me Hal.")
     word = words[Math.floor((Math.random() * words.length))];
     big = word.length
     blanks = word.replace(/[A-Za-z]/g, ' _');
