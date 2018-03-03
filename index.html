@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+    <title>the holy grail</title>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <script src="./assets/javascript/game.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  
+  <body class="app">
+      <h1>2001: A HANGMAN</h1>
+      <div class="main">
+        <div class="hangman">
+            <div id="head"></div>
+            <div id="body"></div>
+            <div id="arms"></div>
+            <div id="legs"></div>
+        </div>
+        <div class="allElse">
+            <div class="top">
+                <h1 id="wins">wins: 0</h1>
+                <h1 id="remain">Guesses Left: 12</h1>
+            </div>
+            <h1 id="hal">H.A.L 9000: <br>I know I've made some very poor decisions recently, but I can give you my complete assurance that my work will be back to normal.</h1>
+            <div class="wordArea"> Hit any key to begin <br><br>
+                <h1>Current Word</h1>
+                <div id="word"></div>
+            </div>
+            <div class="guessedLetters"> 
+                <h1>Letters Guessed<br><br></h1>
+                <p id="letters">[]</p>
+            </div>
+        </div>
+      </div>
+      <div class="bottom">
+            <button id="begin">New Game</button>
+            <button id="clear">reset score</button>
+        </div>
+
+  </body>
+
+</html>
