@@ -92,6 +92,12 @@ $(document).ready(() => {
     letters = [];
     $('#letters').html('[ ]')
     $('#word').html(blanks)
+    $('#head').css('border-color', 'TRANSPARENT');
+    $('#body').css('border-color', 'TRANSPARENT');
+    $('#arms').css('border-top-color', 'TRANSPARENT');
+    $('#arms').css('border-left-color', 'TRANSPARENT');
+    $('#legs').css('border-top-color', 'TRANSPARENT');
+    $('#legs').css('border-left-color', 'TRANSPARENT');
   }
   
   $('#clear').click(() => {
